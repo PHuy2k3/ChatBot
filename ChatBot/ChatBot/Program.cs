@@ -30,7 +30,7 @@ namespace TelegramChatBot
                 
                 );
             var me = await botClient.GetMeAsync();
-            Console.WriteLine($"Bot is running. Press any key to exit.");
+            Console.WriteLine($"Bot is running.");
             Console.ReadKey();
         }
     }
